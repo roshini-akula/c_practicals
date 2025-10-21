@@ -1,0 +1,92 @@
+// #include <stdio.h>
+// int main()
+// {
+//     int a=5,b=6,c=7;
+//     int result;
+//     result=a+b*c;
+//     printf("result of a+b*c=%d\n",result);
+//     result=(a+b)*c;
+//     printf("result of (a+b)*c=%d\n",result);
+//     return 0;
+// }
+
+
+//relational operators and logical operators
+// #include <stdio.h>
+// int main()
+// {
+//     int age;
+//     int marks;
+//     printf("enter your age");
+//     scanf("%d",&age);
+// }
+// SEVEN DAYS INA WEEK//
+
+// #include <stdio.h>
+// int main()
+/ {
+//     const char DAYS_IN_WEEK=7;
+//     printf("there are %d days in a week=%d\n",DAYS_IN_WEEK);
+//     return 0;
+// }
+
+
+//MATHEMATICAL EXPRESSION USING ARITHEMETIC OPERATORS
+// #include <stdio.h>
+// int main()
+// {
+//     int a,b,c,d,e;
+//     float result;
+//     printf("enter values for a,b,c,d,e:");
+//     scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+//     result=(float)a+b*c-d/e;
+//     printf("result of expression (a+b)*(c-d)/e=%2f.\n",result);
+//     return 0;
+// }
+
+//     printf("enter your marks");
+//     scanf("%d",&marks);
+//     if(age>=18 && marks>=50)
+//     {
+//         printf("you are eligible for exam");
+//     }
+//     else if(age>=18 && marks<50)
+//     {
+//         printf("yor are eligible by age but need to improve marks");// #include <stdio.h>
+// int main()
+// {
+//     int age=17;
+//     float height=5.7;
+//     double weight=37;
+//     char grade='A';
+//     char name[]="Roshini";
+//     printf("integer(age)=%d\n",age);
+//     printf("float height=%.2f\n",height);
+//     printf("double weight=%.2f\n",weight);
+//     printf("character grade=%c\n",grade);
+//     printf("string name=%s"\n,name);
+//     return 0;
+    
+// }
+// area of circle
+
+// #include <stdio.h>
+// #define pi 3.14
+// int main()
+// {
+//     float radius=4.4;
+//     float area=pi*radius*radius;
+//     printf("area of circle=%.2f\n",area);
+//     return 0;
+//     }
+//     else if(age<18 && marks>=50)
+//     {
+//         printf("you are not eligible");
+//     }
+//     else
+/     {
+//         printf("you are not eligible for exam");
+//     }
+//     return 0;
+    
+// }
