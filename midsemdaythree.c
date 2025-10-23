@@ -138,3 +138,30 @@
 //     return 0;
     
 // }
+//smallest digit in thr number
+
+// #include <stdio.h>
+// int main()
+// {
+//     int num,digit;
+//     int smallest=9;
+//     printf("enter a number:");
+//     scanf("%d",&num);
+//     if(num<0){
+//         num=-num;
+//     }
+//     if(num==0){
+//         smallest=0;
+//     }else{
+//         while(num>0)
+//         {
+//             digit=num%10;
+//             if(digit<smallest)
+//             smallest=digit;
+//             num/=10;
+//         }
+//         printf("the smallest digit is:%d\n",smallest);
+//     }
+//     return 0;
+    
+// }
