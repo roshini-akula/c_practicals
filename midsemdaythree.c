@@ -165,3 +165,25 @@
 //     return 0;
     
 // }
+/factorial of each digit in a given number
+#include <stdio.h>
+int main()
+{
+    int num,digit,fact,i;
+    printf("enter a number");
+    scanf("%d",&num);
+    if(num<0){
+        num=-num;
+    }
+    while(num>0)
+    {
+        digit=num%10;
+        fact=1;}
+        for(i=1;i<=digit;i++);{
+        fact=fact*i;
+    }
+    printf("factorial of %d=%d\n",digit,fact);
+    num=num/10;
+    return 0;
+}
+
